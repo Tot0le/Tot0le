@@ -25,10 +25,8 @@ I see development like a **Minecraft** world: infinite possibilities, built one 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
-  
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
 </p>
@@ -38,8 +36,7 @@ I see development like a **Minecraft** world: infinite possibilities, built one 
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tot0le&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tot0le&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="Top Languages" />
+  <img src="https://github.com/Tot0le/Tot0le/blob/output/github-habits.svg" alt="Habits" />
 </div>
 
 <div align="center">
