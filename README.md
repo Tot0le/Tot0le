@@ -36,10 +36,10 @@ I see development like a **Minecraft** world: infinite possibilities, built one 
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tot0le/Tot0le/output/github-habits.svg" alt="Habits" />
+  <img src="https://raw.githubusercontent.com/Tot0le/Tot0le/output/stats.svg" alt="GitHub Stats" width="100%" />
 </div>
 
 <div align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/Tot0le/Tot0le/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/Tot0le/Tot0le/output/snake.svg" alt="Snake animation" width="100%" />
 </div>
