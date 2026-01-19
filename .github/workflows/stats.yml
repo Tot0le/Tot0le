@@ -2,7 +2,7 @@ name: Update Stats
 
 on:
   schedule:
-    # Se lance toutes les 24h
+    # Se lance toutes les 24h à minuit
     - cron: "0 0 * * *"
   workflow_dispatch:
 
@@ -15,21 +15,20 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # 1. Génère le Snake Game
+      # 1. Génère le Snake Game -> snake.svg
       - name: Generate Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Tot0le
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
 
-      # 2. Génère les stats d'Habitudes (Matin/Soir) via Metrics
-      # C'est LA référence pour remplacer WakaTime
+      # 2. Génère les Habitudes (Matin/Soir) -> stats.svg
       - name: Generate Habits
         uses: lowlighter/metrics@latest
         with:
-          filename: dist/github-habits.svg
+          filename: dist/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_habits: yes
@@ -37,7 +36,7 @@ jobs:
           plugin_habits_charts: yes
           config_timezone: Europe/Paris
 
-      # 3. Pousse tout ça dans la branche "output"
+      # 3. Pousse le tout sur la branche "output"
       - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
