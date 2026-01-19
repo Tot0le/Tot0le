@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # 1. Génère le Snake Game (Avec le TOKEN pour voir les contributions privées)
+      # 1. Le Snake (On touche pas, il marche !)
       - name: Generate Snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -24,22 +24,24 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
         env:
-          # On utilise ta nouvelle clé ici pour voir les commits privés
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
 
-      # 2. Génère les Habitudes (Avec le TOKEN pour scanner l'historique)
+      # 2. Les Habitudes (Version corrigée)
       - name: Generate Habits
         uses: lowlighter/metrics@latest
         with:
           filename: dist/stats.svg
-          token: ${{ secrets.METRICS_TOKEN }} # Utilise ta clé ici aussi
-          base: ""
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Tot0le              # On force le nom d'utilisateur
+          base: ""                  # Pas de stats de base, juste le plugin
           plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          plugin_habits_from: 200   # Analyse les 200 derniers événements
+          plugin_habits_days: 30    # Regarde sur 30 jours (plus de données)
+          plugin_habits_facts: no   # ⚠️ On désactive les "faits" pour éviter le crash
+          plugin_habits_charts: yes # On garde les graphiques (les barres)
           config_timezone: Europe/Paris
 
-      # 3. Pousse le tout sur la branche "output"
+      # 3. Pousse le tout
       - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
