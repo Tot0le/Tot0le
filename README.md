@@ -47,7 +47,7 @@ I see development like a <b>Minecraft</b> world: infinite possibilities, built o
 
 <h3>📫 Connect</h3>
 <p align="left">
-  <a href="mailto:ton.email@exemple.com">
+  <a href="mailto:anatole.laspoujas1.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <img src="https://img.shields.io/badge/Discord-Tot0le-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Tot0le"/>
