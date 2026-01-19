@@ -1,0 +1,26 @@
+name: Update Stats
+
+on:
+  schedule:
+    # Se lance toutes les 24h
+    - cron: "0 0 * * *"
+  # Permet de lancer manuellement
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update Stats
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      # C'est cette action qui fait le style "GamoTune" sans WakaTime
+      - uses: techi-inquisitive/github-readme-stats@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          style: classic
+          # Tu peux cacher les repos forked si tu veux avec :
+          # hide-forks: true
