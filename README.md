@@ -7,10 +7,6 @@
 
 <hr>
 
-<table>
-<tr>
-<td valign="top" width="60%">
-
 <h3>👾 About Me</h3>
 <p>
 I see development like a <b>Minecraft</b> world: infinite possibilities, built one block at a time. I enjoy tackling complex logic and finding the most efficient solution.
@@ -31,31 +27,53 @@ I see development like a <b>Minecraft</b> world: infinite possibilities, built o
 <hr>
 
 <h3>🛠 Tech Stack</h3>
+
+<h4>Languages</h4>
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
   <img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" alt="R"/>
-  <img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white" alt="JavaFX"/>
-  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="POSTGRES"/>
-  
+  <img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX"/>
 </p>
 
-<h3>💻 Tools & Environment</h3>
+<h4>Frameworks & Libraries</h4>
+<p align="left">
+  <img src="https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white" alt="JavaFX"/>
+</p>
+
+<h4>Databases</h4>
+<p align="left">
+  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="POSTGRES"/>
+</p>
+
+<h4>Tools & Environment</h4>
 <p align="left">
   <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/NixOS-5277C3.svg?style=for-the-badge&logo=NixOS&logoColor=white" alt="NixOS"/>
+  <img src="https://img.shields.io/badge/Nix-5277C3.svg?style=for-the-badge&logo=Nix&logoColor=white" alt="Nix"/>
+  <img src="https://img.shields.io/badge/Zsh-111111?style=for-the-badge&logo=zsh&logoColor=white" alt="Zsh"/>
+  <img src="https://img.shields.io/badge/Kitty_Terminal-212121?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="Kitty"/>
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/>
   <img src="https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white" alt="EclipseIDE"/>
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
   <img src="https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important" alt="Sublim Text"/>
 </p>
+
+<hr>
+
+<h3>📊 GitHub Stats</h3>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tot0le&layout=compact&theme=dark&hide_border=true&hide=makefile" alt="Most Used Languages" />
+</p>
+
+<hr>
 
 <h3>📫 Connect</h3>
 <p align="left">
@@ -65,11 +83,6 @@ I see development like a <b>Minecraft</b> world: infinite possibilities, built o
   <img src="https://img.shields.io/badge/Discord-Tot0le-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Tot0le"/>
 </p>
 
-</td>
-<td valign="top" width="40%">
 <div align="center">
-<img src="https://i.imgur.com/6xfsw07.gif" width="100%" style="border-radius: 10px;">
+  <img src="https://media1.tenor.com/m/bV71z-Xq94MAAAAd/celeste-mountain.gif" width="100%" style="border-radius: 10px;">
 </div>
-</td>
-</tr>
-</table>
