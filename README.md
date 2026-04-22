@@ -43,6 +43,7 @@ I see development like a <b>Minecraft</b> world: infinite possibilities, built o
 <h4>Frameworks & Libraries</h4>
 <p align="left">
   <img src="https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white" alt="JavaFX"/>
+  <img src="https://img.shields.io/badge/PaperMC-API_26.1-34D0FB?style=for-the-badge&logo=papermc&logoColor=white" alt="PaperMC"/>
 </p>
 
 <h4>Databases</h4>
