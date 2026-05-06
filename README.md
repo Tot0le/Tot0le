@@ -56,6 +56,7 @@ I see development like a <b>Minecraft</b> world: infinite possibilities, built o
 <p align="left">
   <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Kathara-34D0FB?style=for-the-badge&logo=docker&logoColor=white" alt="Kathara"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/NixOS-5277C3.svg?style=for-the-badge&logo=NixOS&logoColor=white" alt="NixOS"/>
   <img src="https://img.shields.io/badge/Nix-5277C3.svg?style=for-the-badge&logo=Nix&logoColor=white" alt="Nix"/>
