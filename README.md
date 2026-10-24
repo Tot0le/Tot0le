@@ -1,6 +1,8 @@
 <div align="center">
-  <h1>Hello There! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></h1>
+  <h1>Hello There!</h1>
+  <img src="https://i.imgur.com/lUFHQrO.gif" width="80px" alt="celeste flying strawberry">
   <br>
+  
   <i>"General Kenobi!"</i>
 </div>
 
